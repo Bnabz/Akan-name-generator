@@ -1,4 +1,4 @@
-var gender:
+var gender;
 
 
 
