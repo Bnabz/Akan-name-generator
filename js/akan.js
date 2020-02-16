@@ -1,9 +1,6 @@
 var gender;
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Afua","Afua","Ama"];
-
-
-
+var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 
 
@@ -57,25 +54,6 @@ function confirmGender(){
    var sex = document.getElementsByName('gender');
    if(sex[0].checked == true){
       gender = "male";
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
