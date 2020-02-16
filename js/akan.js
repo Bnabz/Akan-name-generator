@@ -58,24 +58,26 @@ gender = document.getElementsByName('gender').value;
   assignDay();
   confirmGender();
 
-
+  document.getElementById("printDay").innerHTML = dayOfWeek;
+  i = weekday;
 
   if (gender === "male"){
   console.log(maleNames[i]);
-document.getElementById("printDay").innerHTML = dayOfWeek;
+
+  document.getElementById("printName").innerHTML = maleNames[i];
   }
   else if(gender === "female"){
-
+      document.getElementById("printName").innerHTML = femaleNames[i];
   }
 }
 
 
 function confirmGender(){
    var sex = document.getElementsByName('gender');
-    i = weekday;
+
    if(sex[0].checked == true){
       gender = "male";
-  document.getElementById("printName").innerHTML = maleNames[i];
+
 
   }else if(sex[1].checked == true ){
       gender = "female";
