@@ -57,8 +57,31 @@ function confirmGender(){
    var sex = document.getElementsByName('gender');
    if(sex[0].checked == true){
       gender = "male";
+      if
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }else if(sex[1].checked == true ){
       gender = "female";
   }
-  console.log(gender);
+
 }
