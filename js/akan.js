@@ -1,57 +1,43 @@
 
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-
-
-
 var i;
 var gender;
 var weekday;
 
 
-
-
-
-
-
-
-
-
 function formAnalysis(){
   event.preventDefault();
-
-var yearInput = parseInt ( document.getElementById('year').value);
-var monthInput =  document.getElementById('month').value;
-var dayInput = parseInt (document.getElementById('date').value);
-var inputDate = new Date(yearInput+" "+monthInput+" "+dayInput);
- weekday = inputDate.getDay();
-
-gender = document.getElementsByName('gender').value;
-
+  var yearInput = parseInt ( document.getElementById('year').value);
+  var monthInput =  document.getElementById('month').value;
+  var dayInput = parseInt (document.getElementById('date').value);
+  var inputDate = new Date(yearInput+" "+monthInput+" "+dayInput);
+   weekday = inputDate.getDay();
+  gender = document.getElementsByName('gender').value;
   console.log(weekday);
 
   function assignDay(){
 
     if (weekday === 0){
-      dayOfWeek = "sunday"
+      dayOfWeek = "Sunday"
     }
     else if (weekday=== 1){
-      dayOfWeek = "monday"
+      dayOfWeek = "Monday"
     }
     else if (weekday === 2){
-      dayOfWeek = "tuesday"
+      dayOfWeek = "Tuesday"
     }
     else if (weekday=== 3){
-      dayOfWeek = "wednesday"
+      dayOfWeek = "Wednesday"
     }
     else if (weekday === 4){
-      dayOfWeek = "thursday"
+      dayOfWeek = "Thursday"
     }
     else if (weekday === 5){
-      dayOfWeek = "friday"
+      dayOfWeek = "Friday"
     }
     else if (weekday=== 6){
-      dayOfWeek = "saturday"
+      dayOfWeek = "Saturday"
     }
 
   }
@@ -60,16 +46,15 @@ gender = document.getElementsByName('gender').value;
   validateMonth();
   validateDay();
 
-      document.getElementById("printDay").innerHTML = dayOfWeek;
-      i = weekday;
-
-      if (gender === "male"){
+    document.getElementById("printDay").innerHTML = dayOfWeek;
+    i = weekday;
+    if (gender === "male"){
       console.log(maleNames[i]);
 
       document.getElementById("printName").innerHTML = maleNames[i];
-      }
-      else if(gender === "female"){
-          document.getElementById("printName").innerHTML = femaleNames[i];
+    }
+    else if(gender === "female"){
+        document.getElementById("printName").innerHTML = femaleNames[i];
   }
 
       function validateMonth () {
@@ -89,7 +74,6 @@ gender = document.getElementsByName('gender').value;
     }
 
 }
-
 
 function confirmGender(){
    var sex = document.getElementsByName('gender');
