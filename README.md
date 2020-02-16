@@ -1,0 +1,25 @@
+# Akan Name Generator
+#### Version 1.0, 17/1/2020
+#### By Brian Nabiswa
+## Description
+This is a web application that calculates the day of the week you were born from your date of birth and lets you know the corresponding Akan name for your gender.
+## Setup/Installation Requirements
+-Clone this repository or download a ZIP file of the code.
+-The repository, if downloaded as a .zip file will need to be extracted to your preferred location and opened.
+-Open the index.html file to view the application on your preferred web browser.
+To view the app, open the Github Pages link provided below on the .
+## Technologies Used
+HTML
+CSS
+Javascript
+## Support and contact details
+brnabiswa@gmail.com
+### License
+MIT licence
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2020 Brian Nabiswa
