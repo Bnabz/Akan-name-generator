@@ -58,27 +58,35 @@ gender = document.getElementsByName('gender').value;
   assignDay();
   confirmGender();
   validateMonth();
+  validateDay();
 
-  document.getElementById("printDay").innerHTML = dayOfWeek;
-  i = weekday;
+      document.getElementById("printDay").innerHTML = dayOfWeek;
+      i = weekday;
 
-  if (gender === "male"){
-  console.log(maleNames[i]);
+      if (gender === "male"){
+      console.log(maleNames[i]);
 
-  document.getElementById("printName").innerHTML = maleNames[i];
-  }
-  else if(gender === "female"){
-      document.getElementById("printName").innerHTML = femaleNames[i];
-  }
-
-  function validateMonth () {
-  if (monthInput < 1 || monthInput > 12) {
-    alert("Please input a valid month, between 1 and 12");
-
+      document.getElementById("printName").innerHTML = maleNames[i];
+      }
+      else if(gender === "female"){
+          document.getElementById("printName").innerHTML = femaleNames[i];
   }
 
-}
+      function validateMonth () {
+      if (monthInput < 1 || monthInput > 12) {
+        alert("Please input a valid month, between 1 and 12");
 
+      }
+
+    }
+
+    function validateDay () {
+    if (dayInput < 1 || dayInput > 31) {
+      alert("Please input a valid day, between 1 and 31");
+
+    }
+
+    }
 
 }
 
