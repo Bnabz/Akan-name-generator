@@ -44,7 +44,7 @@ function formAnalysis(){
     else if (weekday=== 6){
       dayOfWeek = "saturday"
     }
-
+    document.getElementById("printDay").innerHTML = dayOfWeek;
   }
   assignDay();
   confirmGender();
@@ -61,5 +61,5 @@ function confirmGender(){
   }else if(sex[1].checked == true ){
       gender = "female";
   }
-
+  
 }
