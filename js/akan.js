@@ -57,6 +57,7 @@ gender = document.getElementsByName('gender').value;
   }
   assignDay();
   confirmGender();
+  validateMonth();
 
   document.getElementById("printDay").innerHTML = dayOfWeek;
   i = weekday;
@@ -69,6 +70,16 @@ gender = document.getElementsByName('gender').value;
   else if(gender === "female"){
       document.getElementById("printName").innerHTML = femaleNames[i];
   }
+
+  function validateMonth () {
+  if (monthInput < 1 || monthInput > 12) {
+    alert("Please input a valid month, between 1 and 12");
+
+  }
+
+}
+
+
 }
 
 
