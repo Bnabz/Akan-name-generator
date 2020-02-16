@@ -2,12 +2,14 @@
 #### Version 1.0, 17/1/2020
 #### By Brian Nabiswa
 ## Description
-This is a web application that calculates the day of the week you were born from your date of birth and lets you know the corresponding Akan name for your gender.
+This is a web application that calculates the day of the week that a user was born based on the date of birth input by the user. It then proceeds to assign them an Akan name that corresponds to day of the week on which they were born, depending on their gender.
 ## Setup/Installation Requirements
 -Clone this repository or download a ZIP file of the code.
 -The repository, if downloaded as a .zip file will need to be extracted to your preferred location and opened.
 -Open the index.html file to view the application on your preferred web browser.
 To view the app, open the Github Pages link provided below on the .
+## Link to web page.
+https://bnabz.github.io/akan-name-generator/
 ## Technologies Used
 HTML
 CSS
