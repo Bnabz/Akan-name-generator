@@ -57,7 +57,7 @@ function confirmGender(){
    var sex = document.getElementsByName('gender');
    if(sex[0].checked == true){
       gender = "male";
-      if
+      
 
 
 
