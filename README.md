@@ -5,9 +5,13 @@
 This is a web application that calculates the day of the week that a user was born based on the date of birth input by the user. It then proceeds to assign them an Akan name that corresponds to day of the week on which they were born, depending on their gender.
 ## Features
 -A form allowing user to input day, month and year of birth.
+
 -Radio buttons allowing user to select gender.
+
 -A validation function alerting user if date entered is incorrect
+
 -A submit button, which when pressed after inputing valid data returns to the user the date they were born and their Akan name.
+
 ## Setup/Installation Requirements
 -Clone this repository or download a ZIP file of the code.
 -The repository, if downloaded as a .zip file will need to be extracted to your preferred location and opened.
