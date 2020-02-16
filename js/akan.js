@@ -1,13 +1,13 @@
 
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-var yearInput = parseInt ( document.getElementById('year').value);
-var monthInput =  document.getElementById('month').value;
-var dayInput = parseInt (document.getElementById('date').value);
-var inputDate = new Date(yearInput+" "+monthInput+" "+dayInput);
-var weekday = inputDate.getDay();
-var i = weekday;
-var gender = document.getElementsByName('gender').value;
+
+
+
+var i;
+var gender;
+var weekday;
+
 
 
 
@@ -20,7 +20,13 @@ var gender = document.getElementsByName('gender').value;
 function formAnalysis(){
   event.preventDefault();
 
+var yearInput = parseInt ( document.getElementById('year').value);
+var monthInput =  document.getElementById('month').value;
+var dayInput = parseInt (document.getElementById('date').value);
+var inputDate = new Date(yearInput+" "+monthInput+" "+dayInput);
+ weekday = inputDate.getDay();
 
+gender = document.getElementsByName('gender').value;
 
   console.log(weekday);
 
