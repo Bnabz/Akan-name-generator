@@ -5,6 +5,12 @@ input {
    margin: 8px 0;
    box-sizing: border-box;
 }
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+
+}
 .bg-image {
   /* The image used */
   background-image: url("ghana.jpg");
